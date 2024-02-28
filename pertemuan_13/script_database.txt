@@ -1,0 +1,33 @@
+CREATE DATABASE perpustakaan;
+
+USE perpustakaan;
+
+CREATE TABLE anggota (
+    id_anggota INT(3) AUTO_INCREMENT,
+    nm_anggota VARCHAR(32),
+    alamat TEXT,
+    ttl_anggota TEXT,
+    status_anggota VARCHAR(1),
+    PRIMARY KEY (id_anggota)
+);
+
+CREATE TABLE buku (
+    kd_buku INT(5) PRIMARY KEY,
+    judul_buku VARCHAR(32),
+    pengarang VARCHAR(32),
+    jenis_buku VARCHAR(32),
+    penerbit VARCHAR(32)
+);
+
+CREATE TABLE meminjam (
+    id_pinjam INT(3) AUTO_INCREMENT,
+    tgl_pinjam DATE,
+    jumlah_pinjam INT(2),
+    tgl_kembali DATE,
+    id_anggota INT(3),
+    FOREIGN KEY (id_anggota) REFERENCES anggota (id_anggota),
+    kd_buku INT(5), -- Corrected data type
+    FOREIGN KEY (kd_buku) REFERENCES buku (kd_buku),
+    kembali INT(1),
+    PRIMARY KEY (id_pinjam)
+);

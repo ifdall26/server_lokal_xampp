@@ -1,0 +1,57 @@
+.about, .portofolio, .contact{
+    min-height: 600px;
+}
+.about, .contact{
+    background-color: white;
+}
+.p-5 h1, .p-5 p{
+    color: white;
+}
+.p-5 img{
+    border: 5px solid #F637EC;
+}
+.navbar{
+    background-color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+/* .offcanvas h1{
+    border-bottom: 1px solid gray;
+} */
+.offcanvas a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #45637d;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    transition: .3s;
+}
+.offcanvas a:hover{
+    color: aqua;
+}
+.d-flex{
+    margin-left: 20px;
+}
+h2{
+    margin-top: 10px;
+}
+hr{
+    width: 200px;
+    border: 2px solid #F637EC;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.about p{
+    text-align: justify;
+}
+.portofolio{
+    background-color: #f8f9fa;
+}
+.portofolio a img{
+    margin-bottom: 20px;
+}
+section .footer{
+    background-color: #45637d;
+    min-height: 300px;
+}
+

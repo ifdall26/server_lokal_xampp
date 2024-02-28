@@ -1,0 +1,128 @@
+body{
+	background-color: #E8C07D;
+	margin: 0;
+	padding: 0;
+}
+#tampilan{
+	width: 1000px;
+	height: 700px;
+	background: white;
+	margin: auto;
+}
+#header{
+	position: relative;
+	width: 1000px;
+	background: lightblue;
+	height: 200px;
+	overflow: hidden;
+}
+#header img{
+	z-index: 1;
+}
+#header h1{
+	color: black;
+	text-shadow: 0 5px 0 lightyellow;
+	text-align: center;
+	font-family: times-new-roman,serif;
+	font-size: 50px;
+	position: absolute;
+	z-index: 2;
+}
+#teks{
+	color: lightyellow;
+	background: black;
+	width: 1000px;
+	height: 20px;
+
+}
+*{
+	margin: 0;
+	padding-left: 0;
+	text-decoration: none;
+}
+#menu{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FF8C32;
+}
+#menu ul li{
+	width: 15%;
+	height: 28px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	border-radius: 5px;
+	margin-left: 12px;
+	background: lightyellow;
+	border: 1px solid;
+	font-size: 20px;
+}
+#menu ul li a{
+	color: black;
+	font-weight:bold;
+	font-style: italic;
+}
+#menu ul li a:hover{
+	color: white;
+}
+#menu ul li:hover{
+	background: navy;
+}
+#menu ul li:hover ul{
+	display: block;
+}
+#menu ul li ul{
+	display: none;
+}
+#menu ul li ul li{
+	width: 100%;
+	height: 30px;
+	border: 1px solid;
+	font-size: 15px;
+	background-color: lightyellow;
+}
+#menu ul li ul li a{
+	text-decoration: none;
+}
+#isi{
+	width: 1000px;
+	height: 450px;
+	background-color: white;
+	margin: auto;
+}
+#kiri{
+	background: white;
+	width: 1000px;
+	height: 1450px;
+	float: left;
+	margin-top: 100px;
+}
+#kiri h1{
+	text-align: left;
+	text-shadow: 0 1px 0 blue;	
+	text-decoration: underline 3px solid;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 50px;
+	font-family: arial,sans-serif;
+}
+#kiri img{
+	float: left;
+	width: 300px;
+	height: 200px;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+#kiri p{
+	padding-left: 20px;
+	color: navy;
+}
+#footer{
+	background: black;
+	width: 1000px;
+	height: 20px;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+}

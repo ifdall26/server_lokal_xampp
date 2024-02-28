@@ -1,0 +1,181 @@
+body{
+	background-color: #E8C07D;
+	margin: 0;
+	padding: 0;
+}
+#tampilan{
+	width: 1000px;
+	height: 700px;
+	background: white;
+	margin: auto;
+}
+#header{
+	position: relative;
+	width: 1000px;
+	background: lightblue;
+	height: 200px;
+	overflow: hidden;
+}
+#header img{
+	z-index: 1;
+}
+#header h1{
+	color: black;
+	text-shadow: 0 5px 0 lightyellow;
+	text-align: center;
+	font-family: times-new-roman,serif;
+	font-size: 50px;
+	position: absolute;
+	z-index: 2;
+}
+#teks{
+	color: lightyellow;
+	background: black;
+	width: 1000px;
+	height: 20px;
+
+}
+*{
+	margin: 0;
+	padding-left: 0;
+	text-decoration: none;
+}
+#menu{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FF8C32;
+}
+#menu ul li{
+	width: 15%;
+	height: 28px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	border-radius: 5px;
+	margin-left: 12px;
+	background: lightyellow;
+	border: 1px solid;
+	font-size: 20px;
+}
+#menu ul li a{
+	color: black;
+	font-weight:bold;
+	font-style: italic;
+}
+#menu ul li a:hover{
+	color: white;
+}
+#menu ul li:hover{
+	background: navy;
+}
+#menu ul li:hover ul{
+	display: block;
+}
+#menu ul li ul{
+	display: none;
+}
+#menu ul li ul li{
+	width: 100%;
+	height: 30px;
+	border: 1px solid;
+	font-size: 15px;
+	background-color: lightyellow;
+}
+#menu ul li ul li a{
+	text-decoration: none;
+}
+#isi{
+	width: 1000px;
+	height: 450px;
+	background-color: white;
+	margin: auto;
+}
+#kiri{
+	background: white;
+	width: 700px;
+	height: 950px;
+	float: left;
+	margin-top: 100px;
+}
+#kiri h1{
+	text-align: center;
+	text-shadow: 0 1px 0 blue;	
+}
+#kiri img{
+	width: 660px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#kiri h3{
+	font-weight: normal;
+	padding-left: 10px;
+	font-family: courier,monospace;
+	color: black;
+	font-weight: bold;
+}
+#kiri p{
+	font-family: arial,sans-serif;
+	padding-left: 10px;
+	color: gray;
+}
+#kiri table tr td{
+	padding-left: 20px;
+	color: gray;
+}
+
+#kanan{
+	background: #DDDDDD;
+	width: 300px;
+	height: 1050px;
+	float: left;
+}
+#kanan h1{
+	padding-left: 10px;
+	font-family: trebutchet-ms,sans-serif;
+	background: navy;
+	color: white;
+	text-shadow: 0 5px 0 black;
+}
+#kanan ul li{
+	padding-left: 10px;
+	list-style: none;
+}
+#kanan ul li a{
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: stencil,fantasy;
+	color: black;
+}
+#kanan ul li a:hover{
+	color: blue;
+}
+.medsos{
+	padding: 5px 0;
+}
+.container{
+	width: 100%;
+}
+.container table tr td i{
+	font-size: 50px;
+	margin-right: 40px;
+	padding-left: 10px;
+	color:black;
+}
+#yt i:hover{
+	color:red;
+}
+#wa i:hover{
+	color: green;
+}
+#ig i:hover{
+	color: magenta;
+}#footer{
+	background: black;
+	width: 1000px;
+	height: 20px;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+}

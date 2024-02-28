@@ -1,0 +1,55 @@
+body {
+  background-color: #393e46;
+}
+.jumbotron {
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: #393e46;
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  background-position: 0 -150px;
+  background-attachment: fixed;
+}
+.jumbotron h1 {
+  font-weight: bold;
+  color: #064420;
+  text-shadow: -1px -1px rgba(255, 255, 255, 0.5);
+}
+.jumbotron p {
+  color: #ffffff;
+}
+section {
+  min-height: 450px;
+}
+section h2 {
+  color: #ee7214;
+}
+p {
+  text-align: center;
+}
+.misi {
+  background-color: #e4efe7;
+  padding-top: 75px;
+}
+.tentang {
+  padding-top: 80px;
+}
+.welcome,
+.tentang {
+  background-color: #ffffff;
+}
+.misi hr {
+  width: 100px;
+  border: 3px solid #ee7214;
+  margin: auto;
+  margin-bottom: 15px;
+}
+footer {
+  background-color: #064420;
+  height: 150px;
+  margin-top: 0px;
+}
+footer p {
+  line-height: 150px;
+  color: #ffffff;
+}
